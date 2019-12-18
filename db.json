@@ -1,6 +1,6 @@
 {
 
-  "Screens":{
+  "Screens":[
   "IntroScreen":{
   "IntroText":"Gitanjali leads were at the Franklin ....." ,
   "IntroLink":"image/video link"
@@ -9,6 +9,6 @@
   "IntroText":"Gitanjali leads were at the Franklin ....." ,
   "IntroLink":"image/video link"
   }
-  }
+  ]
 
 }
