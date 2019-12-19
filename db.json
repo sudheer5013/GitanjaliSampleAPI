@@ -1,5 +1,5 @@
 {
-  "Screens": {
+  "UserAppScreens": {
     "IntroScreen": {
       "status": "true",
       "message": "sucess",
@@ -112,17 +112,27 @@
         }
       ]
     },
-    "DonateScreen-": {
-      "data": [
-        {
-          "firstName": "text",
-          "lastName": "text",
-          "mobile": "1234567890",
-          "email": "dkjsjhu@fjhf.com",
-          "transactionID": "id from payment gateway",
-          "amount": "300"
-        }
-      ]
+    "DonateScreen": {
+      "data": {
+        "firstName": "text",
+        "lastName": "text",
+        "mobile": "1234567890",
+        "email": "dkjsjhu@fjhf.com",
+        "transactionID": "id from payment gateway",
+        "amount": "300"
+      }
+    },
+    "BuyTicketScreen": {
+      "data": {
+        "firstName": "text",
+        "lastName": "text",
+        "mobile": "1234567890",
+        "email": "dkjsjhu@fjhf.com",
+        "familyCount": "1",
+        "adultsCount": "1",
+        "kids": "2",
+        "paidCost": "$40"
+      }
     },
     "getYearsAPI": [
       {
