@@ -22,12 +22,14 @@
       "data": [
         {
           "name": "text",
+          "id": 101,
           "role": "text",
           "profileLink": "image link",
           "introduction": "about director"
         },
         {
           "name": "text",
+          "id": 102,
           "role": "text",
           "profileLink": "image link",
           "introduction": "about director"
@@ -40,15 +42,50 @@
       "data": [
         {
           "name": "text",
+          "id": 101,
           "role": "text",
           "profileLink": "image link",
           "introduction": "about director"
         },
         {
           "name": "text",
+          "id": 102,
           "role": "text",
           "profileLink": "image link",
           "introduction": "about director"
+        }
+      ]
+    },
+    "BeneficiariesScreen": {
+      "status": "true",
+      "message": "sucess",
+      "data": [
+        {
+          "name": "text",
+          "id": 101,
+          "profileLink": "image link",
+          "about": "about director"
+        },
+        {
+          "name": "text",
+          "id": 102,
+          "profileLink": "image link",
+          "about": "about director"
+        }
+      ]
+    },
+    "EventsScreen": {
+      "status": "true",
+      "message": "sucess",
+      "data": [
+        {
+          "coverpic": "link",
+          "eventName": "title",
+          "date": "14, Jan",
+          "location": "Grand Rapids , MI 41093",
+          "enableBuyTicket": "true",
+          "hasGallary": "true",
+          "eventID": "102354"
         }
       ]
     }
