@@ -33,6 +33,24 @@
           "introduction": "about director"
         }
       ]
+    },
+    "CommiteMembersScreen": {
+      "status": "true",
+      "message": "sucess",
+      "data": [
+        {
+          "name": "text",
+          "role": "text",
+          "profileLink": "image link",
+          "introduction": "about director"
+        },
+        {
+          "name": "text",
+          "role": "text",
+          "profileLink": "image link",
+          "introduction": "about director"
+        }
+      ]
     }
   }
 }
