@@ -1,21 +1,5 @@
 {
-  "Screens": {
-    "IntroScreen": {
-      "status": "true",
-      "message": "sucess",
-      "data": {
-        "introText": "some text",
-        "introlink": "some image or video link"
-      }
-    },
-    "OurMissionScreen": {
-      "status": "true",
-      "message": "sucess",
-      "data": {
-        "misionText": "some text",
-        "misionlink": "some image or video link"
-      }
-    },
+   
     "BoardMembersScreen": {
       "status": "true",
       "message": "sucess",
@@ -34,6 +18,25 @@
         }
       ]
     },
+  "OurMissionScreen": {
+      "status": "true",
+      "message": "sucess",
+      "data": {
+        "misionText": "some text",
+        "misionlink": "some image or video link"
+      }
+    },
+  "Screens": {
+    "IntroScreen": {
+      "status": "true",
+      "message": "sucess",
+      "data": {
+        "introText": "some text",
+        "introlink": "some image or video link"
+      }
+    }
+  },
+   
     "CommiteMembersScreen": {
       "status": "true",
       "message": "sucess",
@@ -52,5 +55,4 @@
         }
       ]
     }
-  }
 }
