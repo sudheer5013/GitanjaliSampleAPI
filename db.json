@@ -1,7 +1,11 @@
 {
   "Screens":{
-  "IntroScreen":{
-  "IntroText":"Gitanjali leads were at the Franklin ....." ,
-  "IntroLink":"image/video link" }
+  "IntroScreen":
+   {
+  "status": "true",
+  "message": "sucess",
+ 	 "introText": "some text",
+ 	 "introlink": "some image or video link"
+	}
   }
 }
