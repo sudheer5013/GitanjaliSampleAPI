@@ -1,5 +1,6 @@
 {
-   "IntroScreen": {
+  "Screens": {
+    "IntroScreen": {
       "status": "true",
       "message": "sucess",
       "data": {
@@ -7,8 +8,6 @@
         "introlink": "some image or video link"
       }
     },
-  "Screens": {
-   
     "OurMissionScreen": {
       "status": "true",
       "message": "sucess",
