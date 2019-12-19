@@ -15,6 +15,24 @@
         "misionText": "some text",
         "misionlink": "some image or video link"
       }
+    },
+    "BoardMembersScreen": {
+      "status": "true",
+      "message": "sucess",
+      "data": [
+        {
+          "name": "text",
+          "role": "text",
+          "profileLink": "image link",
+          "introduction": "about director"
+        },
+        {
+          "name": "text",
+          "role": "text",
+          "profileLink": "image link",
+          "introduction": "about director"
+        }
+      ]
     }
   }
 }
