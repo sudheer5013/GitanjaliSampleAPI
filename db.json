@@ -112,6 +112,18 @@
         }
       ]
     },
+    "DonateScreen-": {
+      "data": [
+        {
+          "firstName": "text",
+          "lastName": "text",
+          "mobile": "1234567890",
+          "email": "dkjsjhu@fjhf.com",
+          "transactionID": "id from payment gateway",
+          "amount": "300"
+        }
+      ]
+    },
     "getYearsAPI": [
       {
         "year": "2018"
