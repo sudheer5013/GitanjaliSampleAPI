@@ -153,7 +153,7 @@
       "status": "true",
       "message": "sucess"
     },
-    "Registration": {
+    "Registration-Post": {
       "FirstName": "first nane",
       "LastName": "last name",
       "phone": "232323232",
@@ -164,7 +164,7 @@
       "status": "true",
       "message": "sucess"
     },
-    "SellTicket": {
+    "SellTicket-Post": {
       "FirstName": "firstname",
       "LastName": "lastname",
       "mobileNumer": "32323",
@@ -197,10 +197,10 @@
       "ByEvent": "eventName"
     },
     "SalesScreen": {
-      "SalesHistory": {
+      "SalesHistory-Post": {
         "ByEent": "evcentname"
       },
-      "Response": {
+      "SalesHistory-Response": {
         "status": "true",
         "message": "sucessmessage",
         "Data": {
