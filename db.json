@@ -1,150 +1,5 @@
 {
-  "UserAppScreens": {
-    "IntroScreen": {
-      "status": "true",
-      "message": "sucess",
-      "data": {
-        "introText": "some text",
-        "introlink": "some image or video link"
-      }
-    },
-    "OurMissionScreen": {
-      "status": "true",
-      "message": "sucess",
-      "data": {
-        "misionText": "some text",
-        "misionlink": "some image or video link"
-      }
-    },
-    "BoardMembersScreen": {
-      "status": "true",
-      "message": "sucess",
-      "data": [
-        {
-          "name": "text",
-          "id": 101,
-          "role": "text",
-          "profileLink": "image link",
-          "introduction": "about director"
-        },
-        {
-          "name": "text",
-          "id": 102,
-          "role": "text",
-          "profileLink": "image link",
-          "introduction": "about director"
-        }
-      ]
-    },
-    "CommiteMembersScreen": {
-      "status": "true",
-      "message": "sucess",
-      "data": [
-        {
-          "name": "text",
-          "id": 101,
-          "role": "text",
-          "profileLink": "image link",
-          "introduction": "about director"
-        },
-        {
-          "name": "text",
-          "id": 102,
-          "role": "text",
-          "profileLink": "image link",
-          "introduction": "about director"
-        }
-      ]
-    },
-    "BeneficiariesScreen": {
-      "status": "true",
-      "message": "sucess",
-      "data": [
-        {
-          "name": "text",
-          "id": 101,
-          "profileLink": "image link",
-          "about": "about director"
-        },
-        {
-          "name": "text",
-          "id": 102,
-          "profileLink": "image link",
-          "about": "about director"
-        }
-      ]
-    },
-    "EventsScreen": {
-      "status": "true",
-      "message": "sucess",
-      "data": [
-        {
-          "coverpic": "image or video link",
-          "eventName": "title",
-          "date": "14, Jan",
-          "location": "Grand Rapids , MI 41093",
-          "enableBuyTicket": "true",
-          "hasGallary": "true",
-          "eventID": "102354"
-        }
-      ]
-    },
-    "GalleryScreen": {
-      "status": "true",
-      "message": "sucess",
-      "data": [
-        {
-          "eventName": "title",
-          "eventId": "121212",
-          "eventDate": "14, Jan 2019",
-          "location": "St’Auditorium , Dallas",
-          "images": [
-            {
-              "image": "image link"
-            },
-            {
-              "image": "image link"
-            },
-            {
-              "image": "image link"
-            }
-          ]
-        }
-      ]
-    },
-    "DonateScreen": {
-      "data": {
-        "firstName": "text",
-        "lastName": "text",
-        "mobile": "1234567890",
-        "email": "dkjsjhu@fjhf.com",
-        "transactionID": "id from payment gateway",
-        "amount": "300"
-      }
-    },
-    "BuyTicketScreen": {
-      "data": {
-        "firstName": "text",
-        "lastName": "text",
-        "mobile": "1234567890",
-        "email": "dkjsjhu@fjhf.com",
-        "familyCount": "1",
-        "adultsCount": "1",
-        "kids": "2",
-        "paidCost": "$40"
-      }
-    },
-    "getYearsAPI": [
-      {
-        "year": "2018"
-      },
-      {
-        "year": "2017"
-      }
-    ]
-  },
   "TicketAdmin": {
-     "TicketAdmin": {
     "loginscreen-Post": {
       "userName": "username",
       "password": "password"
@@ -153,7 +8,7 @@
       "status": "true",
       "message": "sucess"
     },
-    "Registration-Post": {
+    "Registration": {
       "FirstName": "first nane",
       "LastName": "last name",
       "phone": "232323232",
@@ -164,7 +19,7 @@
       "status": "true",
       "message": "sucess"
     },
-    "SellTicket-Post": {
+    "SellTicket": {
       "FirstName": "firstname",
       "LastName": "lastname",
       "mobileNumer": "32323",
@@ -191,16 +46,28 @@
         }
       }
     },
-    "SearchScreen": {
+    "SearchScreen-Post": {
       "mibile": "122133232323",
       "FirstName": "name",
       "ByEvent": "eventName"
     },
+    "SearchScreen-Response": {
+      "status": "true",
+      "message": "sucessmessage",
+      "data": [
+        {
+          "firstaName": "name",
+          "lastName": "lastname",
+          "QrCode": "code",
+          "": {}
+        }
+      ]
+    },
     "SalesScreen": {
-      "SalesHistory-Post": {
+      "SalesHistory": {
         "ByEent": "evcentname"
       },
-      "SalesHistory-Response": {
+      "Response": {
         "status": "true",
         "message": "sucessmessage",
         "Data": {
@@ -211,6 +78,5 @@
         }
       }
     }
-  }
   }
 }
