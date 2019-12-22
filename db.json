@@ -144,6 +144,73 @@
     ]
   },
   "TicketAdmin": {
-    "All": "New"
+     "TicketAdmin": {
+    "loginscreen-Post": {
+      "userName": "username",
+      "password": "password"
+    },
+    "LoginScreen-Response": {
+      "status": "true",
+      "message": "sucess"
+    },
+    "Registration": {
+      "FirstName": "first nane",
+      "LastName": "last name",
+      "phone": "232323232",
+      "adress": "address",
+      "IntrestArea": "TicketAdmin/Volunteering"
+    },
+    "Registration-Response": {
+      "status": "true",
+      "message": "sucess"
+    },
+    "SellTicket": {
+      "FirstName": "firstname",
+      "LastName": "lastname",
+      "mobileNumer": "32323",
+      "email": "email@domain.com",
+      "PaymentMode": "Cash/CrediCard",
+      "PaymentID": "last t digits of transaction id",
+      "PaymentAmount": "$110"
+    },
+    "SellTicket-Response": {
+      "status": "true",
+      "message": "sucess message"
+    },
+    "CheckInScreen": {
+      "PostCall": {
+        "QRCode": "sdsds"
+      },
+      "Response": {
+        "status": "true",
+        "message": "sucess message",
+        "CheckInList": {
+          "TotalcheckInCount": "9",
+          "AdultsCheckinCount": "2",
+          "KidsCheckinCount": "1"
+        }
+      }
+    },
+    "SearchScreen": {
+      "mibile": "122133232323",
+      "FirstName": "name",
+      "ByEvent": "eventName"
+    },
+    "SalesScreen": {
+      "SalesHistory": {
+        "ByEent": "evcentname"
+      },
+      "Response": {
+        "status": "true",
+        "message": "sucessmessage",
+        "Data": {
+          "totalCheckinCount": "120",
+          "CashMode": "23",
+          "CrediCard": "41",
+          "TotalCashAmmount": "$1300"
+        }
+      }
+    }
+  }
   }
 }
